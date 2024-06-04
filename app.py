@@ -42,7 +42,7 @@ if rad =='About Us':
     with col2:
         st.subheader("Team - Blue Moon")
         st.image("./assets/images/nasa-logo.png", use_column_width=True)
-    st.write("This project was created by a team of 2 students - [Vansh Sharma](https://www.linkedin.com/in/vanshsharma10/) and [Bhavy Bansal](https://www.linkedin.com/in/bhavybansal24/) from the Manipal University Jaipur, India for the [NASA Space Apps Challenge 2022](https://www.spaceappschallenge.org/). Make sure to give this a star on [GitHub](https://github.com/vanshhhhh/Horizon).")
+    st.write("This project was created by a team of 2 students - [Vansh Sharma](https://www.linkedin.com/in/vanshsharma10/) and [Nandini](https://www.linkedin.com/in/nandini-ghildiyal-30323a196/) from the Manipal University Jaipur, India for the [NASA Space Apps Challenge 2022](https://www.spaceappschallenge.org/). Make sure to give this a star on [GitHub](https://github.com/vanshhhhh/Horizon).")
 if rad == 'Solar Flux Visualization':
     st.title("Solar Flux Visualization")
     options = st.radio('Select data type', ['Monthly Averages', 'Rotational Averages', 'Daily Flux Values'], horizontal=True)
